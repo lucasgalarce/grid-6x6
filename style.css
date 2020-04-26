@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(30px, auto);
+    grid-gap: 1px;
+  }
+  
+  .grid-item {
+    border: 1px solid black;
+  }
