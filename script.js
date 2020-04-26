@@ -1,5 +1,4 @@
 const celdas = document.querySelectorAll('.grid-item');
-console.log(celdas);
 
 for (let i = 0; i < celdas.length; i++) {
     celdas[i].addEventListener('click', () => {
